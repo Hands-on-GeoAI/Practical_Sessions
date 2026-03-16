@@ -12,5 +12,5 @@ conda-containerize new --prefix /projappl/project_2018216/handson-geoai  handson
 Every Practical session just open the `handson-geoai-course.lua` and change it to the relevant ipynb file. Then run following script
 
 ```sh
-mkdir /projappl/project_2018216/www_puhti_modules && cp handson-geoai-course-resources.yml handson-geoai-course.lua /projappl/project_2018216/www_puhti_modules
+mkdir -p /projappl/project_2018216/www_puhti_modules && cp handson-geoai-course-resources.yml handson-geoai-course.lua /projappl/project_2018216/www_puhti_modules
 ```
