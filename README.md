@@ -5,12 +5,12 @@ git clone https://github.com/Hands-on-GeoAI/Jupyter_Puhti.git
 
 cd Jupyter_Puhti
 module load tykky
-mkdir -p /projappl/project_2018216/handson-geoai
-conda-containerize new --prefix /projappl/project_2018216/handson-geoai  handson-geoai-env.yml  #  Installation can take a while
+mkdir -p /projappl/project_2018216/GeoAI
+conda-containerize new --prefix /projappl/project_2018216/GeoAI  GeoAI-env.yml  #  Installation can take a while
 ```
 
-Every Practical session just open the `NMRLipids-course.lua` and change it to the relevant ipynb file. Then run following script
+Every Practical session just open the `GeoAI-course.lua` and change it to the relevant ipynb file. Then run following script
 
 ```sh
-mkdir -p /projappl/project_2018216/www_puhti_modules && cp NMRLipids-course-resources.yml NMRLipids-course.lua /projappl/project_2018216/www_puhti_modules
+mkdir -p /projappl/project_2018216/www_mahti_modules && cp GeoAI-course-resources.yml GeoAI-course.lua /projappl/project_2018216/www_mahti_modules
 ```

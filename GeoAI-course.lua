@@ -1,7 +1,7 @@
 -- Jupyter
-prepend_path("PATH", "/projappl/project_2018216/handson-geoai/bin")
+prepend_path("PATH", "/projappl/project_2018216/GeoAI/bin")
 
-setenv("_COURSE_BASE_NAME", "handson-geoai")
+setenv("_COURSE_BASE_NAME", "GeoAI")
 setenv("_COURSE_NOTEBOOK", "Jupyter_Puhti/practical-session-1.ipynb")
 setenv("_COURSE_GIT_REPO", "https://github.com/Hands-on-GeoAI/Jupyter_Puhti.git")
 setenv("_COURSE_GIT_REF", "")
