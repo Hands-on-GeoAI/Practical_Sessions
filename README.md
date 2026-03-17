@@ -1,9 +1,9 @@
 ```sh
 cd /scratch/project_2018216/
 
-git clone https://github.com/Hands-on-GeoAI/Jupyter_Puhti.git
+git clone https://github.com/Hands-on-GeoAI/Practical_Sessions.git
 
-cd Jupyter_Puhti
+cd Practical_Sessions
 module load tykky
 mkdir -p /projappl/project_2018216/GeoAI
 conda-containerize new --prefix /projappl/project_2018216/GeoAI  GeoAI-env.yml  #  Installation can take a while
