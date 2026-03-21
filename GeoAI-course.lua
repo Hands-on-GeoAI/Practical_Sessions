@@ -2,7 +2,7 @@
 prepend_path("PATH", "/projappl/project_2018216/GeoAI/bin")
 
 setenv("_COURSE_BASE_NAME", "GeoAI")
-setenv("_COURSE_NOTEBOOK", "Practical_Sessions/practical-session-1.ipynb")
+setenv("_COURSE_NOTEBOOK", "Practical_Sessions/")
 setenv("_COURSE_GIT_REPO", "https://github.com/Hands-on-GeoAI/Practical_Sessions.git")
 setenv("_COURSE_GIT_REF", "")
 setenv("_COURSE_NOTEBOOK_TYPE", "notebook")
