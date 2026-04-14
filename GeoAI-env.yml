@@ -15,3 +15,5 @@ dependencies:
   - ipykernel  
   - geopandas
   - pyogrio
+  - torchmetrics
+  - torchvision
