@@ -12,5 +12,5 @@ conda-containerize new --prefix /projappl/project_2018216/GeoAI  GeoAI-env.yml  
 Every Practical session just open the `GeoAI-course.lua` and change it to the relevant ipynb file. Then run following script
 
 ```sh
-mkdir -p /projappl/project_2018216/www_mahti_modules && cp GeoAI-course-resources.yml GeoAI-course.lua /projappl/project_2018216/www_mahti_modules
+mkdir -p /projappl/project_2018216/www_mahti_modules && cp GeoAI-* /projappl/project_2018216/www_mahti_modules
 ```
