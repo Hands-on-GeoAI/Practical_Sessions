@@ -7,7 +7,7 @@ dependencies:
   - matplotlib
   - pip
   - pip:
-      - vllm>=0.20.0
+      - vllm
       - transformers>=5.7.0
       - openai
       - httpx
