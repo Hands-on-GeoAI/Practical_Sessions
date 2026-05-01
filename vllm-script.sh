@@ -6,7 +6,10 @@
 #SBATCH --time=15
 #SBATCH --gres=gpu:a100:4
 
-source /projappl/project_2018216/LLM/bin/activate
+module load tykky
+tykky activate /projappl/project_2018216/LLM
+
+which vllm
 
 # Generate a random API key for the vLLM server and output it
 export VLLM_API_KEY=$(mktemp -u XXXXXXXXXXXX)
@@ -20,7 +23,7 @@ export HF_HOME=/scratch/$SLURM_JOB_ACCOUNT/hf-cache
 
 MODEL="Qwen/Qwen3.5-4B"
 
-srun vllm serve $MODEL \
+srun /projappl/project_2018216/LLM/bin/vllm serve $MODEL \
        --port 8000 \
        --tensor-parallel-size 4 \
        --max-model-len 32768 \
