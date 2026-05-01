@@ -6,7 +6,7 @@
 #SBATCH --time=15
 #SBATCH --gres=gpu:a100:4
 
-source /projappl/project_2018216/GeoAI/bin/activate
+source /projappl/project_2018216/LLM/bin/activate
 
 # Generate a random API key for the vLLM server and output it
 export VLLM_API_KEY=$(mktemp -u XXXXXXXXXXXX)
