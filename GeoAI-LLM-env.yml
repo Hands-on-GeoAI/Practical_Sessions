@@ -5,7 +5,9 @@ dependencies:
   - jupyterlab
   - notebook
   - matplotlib
-  - transformers
-  - openai
-  - httpx
-  - vllm
+  - pip
+  - pip:
+      - vllm>=0.20.0
+      - transformers>=5.7.0
+      - openai
+      - httpx
