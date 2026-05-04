@@ -23,4 +23,4 @@ dependencies:
   - httpx
   - pip
   - pip:
-      - vllm==0.20.1
+      - vllm==0.20.0
