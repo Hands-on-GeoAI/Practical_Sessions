@@ -2,12 +2,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - jupyterlab
-  - notebook
-  - matplotlib
-  - transformers>=5.7.0
-  - openai
-  - httpx
   - pip
   - pip:
       - --extra-index-url https://download.pytorch.org/whl/cu126
