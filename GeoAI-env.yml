@@ -21,4 +21,6 @@ dependencies:
   - transformers
   - openai
   - httpx
-  - vllm
+  - pip
+  - pip:
+      - vllm==0.20.1
