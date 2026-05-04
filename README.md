@@ -16,3 +16,7 @@ mkdir -p /projappl/project_2018216/www_mahti_modules && cp GeoAI-* /projappl/pro
 ```
 
 conda-containerize new --prefix /projappl/project_2018216/LLM  GeoAI
+
+CW_DEBUG_KEEP_FILES=1 \
+CW_LOG_LEVEL=3 \
+conda-containerize new --prefix /projappl/project_2018216/LLM GeoAI-LLM-env.yml
