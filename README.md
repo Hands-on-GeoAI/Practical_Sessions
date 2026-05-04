@@ -15,7 +15,7 @@ Every Practical session just open the `GeoAI-course.lua` and change it to the re
 mkdir -p /projappl/project_2018216/www_mahti_modules && cp GeoAI-* /projappl/project_2018216/www_mahti_modules
 ```
 
-For the LLMs, use this:
+For the LLMs, use this -- This doesn't work -- I switched to ollama:
 ```sh
 module load gcc/10.4.0 cuda/12.6.1 # Required for build wheel
 nvcc --version
@@ -28,3 +28,4 @@ CW_DEBUG_KEEP_FILES=1 \
 CW_LOG_LEVEL=3 \
 conda-containerize new --prefix /projappl/project_2018216/LLM GeoAI-LLM-env.yml
 ```
+
